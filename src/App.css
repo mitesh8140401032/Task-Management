@@ -1,0 +1,107 @@
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link.show {
+  color: #0a508c !important;
+}
+
+* {
+  color: black
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&display=swap');
+
+.h-h1 {
+  font-family: 'Libre Baskerville', serif;
+  color: black;
+}
+
+
+
+.active {
+  color: #0a508c !important;
+}
+
+.navbar-nav {
+  --bs-nav-link-font-weight: 600 !important;
+}
+
+.nav-link {
+  color: black !important;
+}
+
+.navbar-brand {
+  font-size: 2rem !important;
+  color: black !important;
+  font-weight: 700;
+}
+
+.MuiTableCell-root.MuiTableCell-head {
+  background-color: aliceblue !important;
+}
+
+.css-1w1rijm-MuiButtonBase-root-MuiButton-root {
+  -webkit-align-items: start !important;
+  text-align: center !important;
+  text-transform: none !important;
+  margin: auto !important;
+  font-weight: 600 !important;
+}
+
+.css-1ex1afd-MuiTableCell-root {
+  text-align: center !important;
+}
+
+.css-1ygcj2i-MuiTableCell-root {
+  text-align: center !important;
+  font-weight: 600 !important;
+}
+
+.css-pdct74-MuiTablePagination-selectLabel {
+  margin-bottom: 0;
+}
+
+.css-levciy-MuiTablePagination-displayedRows {
+  margin-bottom: 0;
+}
+
+.form-check-input.mystyle {
+  border: 1px solid gray;
+}
+
+.tss-1qtl85h-MUIDataTableBodyCell-root button {
+  color: #fff;
+}
+
+.Mynav {
+  position: relative;
+}
+
+.Mynav img {
+  width: 24px;
+  height: 24px;
+}
+
+.Mycart {
+  width: 24px;
+  height: 24px;
+  text-align: center;
+  position: absolute;
+  top: 0px;
+  right: -5px;
+  background-color: black;
+  border-radius: 50%;
+  font-size: 18px;
+  line-height: 22px;
+  color: #f5e4e4;
+
+}
+
+@media only screen and (max-width: 992px) {
+  .Mynav {
+    position: relative;
+    max-width: 32px;
+  }
+}
+
+.tss-1qtl85h-MUIDataTableBodyCell-root p {
+  margin-bottom: 0;
+}
